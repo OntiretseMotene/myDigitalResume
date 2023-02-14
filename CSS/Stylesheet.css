@@ -2,6 +2,16 @@ body{
     font-family: sans-serif; 
     font-size: 110%; 
     background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    overflow: unset;
+}
+
+.main{
+display: flex;
+flex-direction: row;
+
+
 }
 
 #Profilephoto{
@@ -20,6 +30,7 @@ header{
     text-align: center; 
     background-color: darkgrey; 
     width: 100%;
+    justify-content: center;
 }
 
 #heading{
