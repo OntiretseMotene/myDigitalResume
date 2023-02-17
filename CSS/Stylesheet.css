@@ -27,15 +27,14 @@ overflow: unset;
   border: 5px solid orange;
 
 }
-
+/* I've added changed the text alignment of the navigation menu to centre to change position and improve look*/
 .nav-Menu{
     list-style-type: none;
     padding: 2%;
     text-align: center;
     
-
 }
-
+/* I created this new id selector to edit the navigation menu heading */
 .menu_heading{
     background-color: orange;
     padding: 0%;
@@ -103,6 +102,7 @@ h2{
 left: 15px;
 }
 
+/* I used padding for h3 and paragraphs to create to create space */
 h3{
     padding-left: 15px;
 }
