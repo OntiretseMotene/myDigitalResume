@@ -1,11 +1,15 @@
+/*Adding corrections to my CSS file*/
+
 body{
     font-family: sans-serif; 
     font-size: 110%; 
     background-color: ghostwhite;
     display: flex;
     flex-direction: column;
+    width: 100%;
     position: relative;
     left: 20px;
+    margin: 0;
     
 }
 
@@ -16,7 +20,7 @@ overflow: unset;
 
 }
 
-#Profilephoto{
+#profilePhoto{
   width: 15%;  
   height: 15%;
   border-radius: 60%;
@@ -27,9 +31,16 @@ overflow: unset;
 .nav-Menu{
     list-style-type: none;
     padding: 2%;
+    text-align: center;
+    
 
 }
 
+.menu_heading{
+    background-color: orange;
+    padding: 0%;
+    text-align: center;
+}
 header{
     text-align: center; 
     background-color: darkgrey; 
@@ -55,6 +66,7 @@ header{
 
 .navMenu{
     list-style-type: none;
+    background-color: orange;
 
 }
 
@@ -89,4 +101,12 @@ h2{
 #content{
     position: relative;
 left: 15px;
+}
+
+h3{
+    padding-left: 15px;
+}
+
+p{
+     padding-left: 15px;
 }
